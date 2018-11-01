@@ -1,0 +1,44 @@
+div.container-fluid {
+	display: flex;
+	position: relative;
+	width: 100%;
+	height: auto;
+	justify-content: center;
+}
+
+.erenstache {
+	
+	width: 200px;
+	height: auto;
+	 -webkit-filter: saturate(0);
+  filter: saturate(0);
+	transition: 2s ease-in-out;
+	
+}
+
+.erenstache:hover {
+	cursor: pointer;
+  -webkit-filter: saturate(5);
+  filter: saturate(5);
+	transition: .75s ease-in-out;
+}
+
+div.home-title {
+	opacity: 0;
+	
+}
+
+#erentwo {
+	width:auto;
+	margin-top: 100px;
+}
+
+div.home-title:hover {
+	cursor: pointer;
+}
+
+.btn-group {
+	display: flex;
+	position: absolute;
+	
+}
